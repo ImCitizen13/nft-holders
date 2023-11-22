@@ -1,0 +1,27 @@
+{
+  "name": "nft-holders",
+  "version": "1.0.0",
+  "description": "gets NFT holders for nft collection using Alchemy `getOwnersForCollection`",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImCitizen13/nft-holders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImCitizen13/nft-holders/issues"
+  },
+  "homepage": "https://github.com/ImCitizen13/nft-holders#readme",
+  "dependencies": {
+    "alchemy-sdk": "^2.5.0",
+    "cli-progress": "^3.12.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.0"
+  }
+}
